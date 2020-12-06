@@ -1,15 +1,18 @@
-import React from "react"
-import ReactDOM from "react-dom"
+import React from 'react'
+import ReactDOM from 'react-dom'
 
-function MyApp() {
+function MyInfo() {
   return (
-    <ul>
-      <li>l1</li>
-      <li>l2</li>
-      <li>l3</li>
-    </ul>
-    )
+    <div>
+      <h1>Haoran Yu</h1>
+      <p>A MSCS student from Northeastern University</p>
+      <ul>
+        <li>Google intern</li>
+        <li>Facebook intern</li>
+        <li>Apple intern</li>
+      </ul>
+    </div>
+  )
 }
 
-ReactDOM.render(<MyApp />, document.getElementById("root"))
-
+ReactDOM.render(MyInfo(), document.getElementById("root"))

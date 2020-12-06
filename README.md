@@ -8,6 +8,13 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
+ReactDOM.render(<h1>Hello World</h1>, document.getElementById("root"));
+```
+
+```javascript
+import React from "react";
+import ReactDOM from "react-dom";
+
 function MyApp() {
 	return (
 		<ul>
