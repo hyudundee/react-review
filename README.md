@@ -1,5 +1,9 @@
 # Review react knowledge
 
+## JS snippets
+
+### render jsx element to page index.html
+
 ```javascript
 import React from "react";
 import ReactDOM from "react-dom";
